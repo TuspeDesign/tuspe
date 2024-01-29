@@ -1,0 +1,30 @@
+{
+  "buttons": [
+    {
+      "icon": "round-code",
+      "link": "/verkkosivut",
+      "title": "Verkkosivut yritykselle"
+    },
+    {
+      "icon": "round-sports-hockey",
+      "link": "/urheilu",
+      "title": "Urheiluseuroille"
+    }
+  ],
+  "description": "Tuspe Design tarjoaa käyttäjäystävällisiä, visuaalisesti upeita, informatiivisia ja hakukoneoptimointiin suunniteltuja verkkosivuja yrityksille ja urheiluseuroille. Erota yrityksesi kilpailijoista laadukkaalla verkkonäkyvyydellä!",
+  "headline": "Laadukkaat verkkosivut ovat hyvää asiakaspalvelua",
+  "image": "tuspedesign-building-websites",
+  "imageHeight": 382,
+  "language": "fi",
+  "slogan": "Ratkaisut yrityksille ja urheiluseuroille",
+  "subtitle": "Tehtävä edistää sinun liiketoimintaasi",
+  "title": "Tuspe Design",
+  "waves": {
+    "buttonIcon": "round-code",
+    "buttonText": "Ota rohkeasti yhteyttä",
+    "content": "<p>Yli 10 vuoden kokemuksella tarjoamme verkkosivut ja verkkokaupat, jotka yhdistävät teknisen toteutuksen kauniiseen ulkoasuun, selkeään käyttöliittymään ja vahvaan viestiin.</p><p>Olemme toteuttaneet useita integraatioita verkkokauppoihin, maksu- ja laskutuspalveluihin, ERP- ja CRM-järjestelmiin sekä monenlaisia REST API -rajapintoja. Haastamme itsemme jatkuvasti!</p>",
+    "image": "sport-get-ready",
+    "imageHeight": 440,
+    "title": "Parempaa asiakaspalvelua"
+  }
+}

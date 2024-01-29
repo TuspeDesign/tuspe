@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://tuspe.com/</loc>
+  <priority>0.9</priority>
+  <lastmod>2024-01-25T12:00:00+03:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/verkkosivut</loc>
+  <priority>1.00</priority>
+  <lastmod>2023-09-19T15:00:00+02:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/urheilu</loc>
+  <priority>0.8</priority>
+  <lastmod>2023-09-19T15:00:00+02:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/yhteys</loc>
+  <priority>0.7</priority>
+  <lastmod>2023-09-19T15:00:00+02:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/en</loc>
+  <priority>0.8</priority>
+  <lastmod>2024-01-25T12:00:00+03:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/en/websites</loc>
+  <priority>0.9</priority>
+  <lastmod>2023-10-01T22:30:00+02:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/en/sport</loc>
+  <priority>0.7</priority>
+  <lastmod>2023-10-01T22:30:00+02:00</lastmod>
+</url>
+<url>
+  <loc>https://tuspe.com/en/contact</loc>
+  <priority>0.5</priority>
+  <lastmod>2023-10-01T22:30:00+02:00</lastmod>
+</url>
+</urlset>

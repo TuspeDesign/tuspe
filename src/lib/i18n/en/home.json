@@ -1,0 +1,30 @@
+{
+  "buttons": [
+    {
+      "icon": "round-code",
+      "link": "/en/websites",
+      "title": "Websites for businesses"
+    },
+    {
+      "icon": "round-sports-hockey",
+      "link": "/en/sport",
+      "title": "For sports clubs"
+    }
+  ],
+  "description": "Tuspe Design offers user-friendly, visually stunning, informative, and search engine-optimized websites for businesses and sports clubs. Stand out from your competitors with high-quality online visibility!",
+  "headline": "High-quality websites offer excellent customer service",
+  "image": "tuspedesign-building-websites",
+  "imageHeight": 382,
+  "language": "en",
+  "slogan": "Websites for businesses and sports clubs",
+  "subtitle": "Our mission is to promote your business",
+  "title": "Tuspe Design",
+  "waves": {
+    "buttonIcon": "round-code",
+    "buttonText": "Feel free to contact us",
+    "content": "<p>With over 10 years of experience, we provide websites and online stores that combine technical implementation with beautiful design, clear user interfaces, and a strong message.</p><p>We have implemented various integrations with online stores, payment and invoicing services, ERP and CRM systems, as well as a wide range of REST APIs. We constantly challenge ourselves!</p>",
+    "image": "sport-get-ready",
+    "imageHeight": 440,
+    "title": "Delivering better customer service"
+  }
+}

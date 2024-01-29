@@ -1,0 +1,21 @@
+{
+  "contact": true,
+  "title": "Contact information",
+  "headline": "Websites for your business with just one phone call",
+  "description": "Don't stress about renovating or updating your company's website unnecessarily. Let's work together to improve your sales.",
+  "subtitle": "Better customer service",
+  "slogan": "Websites for businesses and sports clubs",
+  "image": "tuspedesign-websites",
+  "imageHeight": 510,
+  "language": "en",
+  "waves": {
+    "title": "Feel free to contact us",
+    "content": "<p><strong>Tuspe Design Ltd</strong><br>27170 Eurajoki<br>3129423-2</p><p><strong>Sales</strong><br>Timo Anttila<br>moro@tuspe.com<br>+358 45 311 1786</p>",
+    "form": {
+      "email": "Email",
+      "message": "Message",
+      "name": "Name",
+      "submit": "Send"
+    }
+  }
+}

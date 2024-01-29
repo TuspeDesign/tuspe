@@ -1,0 +1,76 @@
+{
+  "title": "Monipuolinen kotisivu urheiluseuralle",
+  "headline": "Monipuolinen ja helposti päivitettävä urheilusaitti",
+  "description": "Kotisivut ovat pelivälineesi digikentällä. Hyvin rakennetut ja toimivat kotisivut ovat ilo silmälle sekä maali bisnekseen. Liity mukaan alati kasvavaan joukkoon.",
+  "subtitle": "Kasvata näkyvyyttä",
+  "slogan": "Kotisivut yrityksille ja urheiluseuroille",
+  "language": "fi",
+  "image": "tuspe-sport",
+  "imageHeight": 628,
+  "waves": {
+    "buttonText": "Lähdetään yhdessä kentälle",
+    "content": "<p>Olemme kehittäneet yhteistyössä jalkapallo- ja jääkiekkoseurojen kanssa monipuolisen urheilusaittimme, joka on helppokäyttöinen ylläpitäjille ja kotisivulla vierailevalle. Tarkoituksena on tarjota paras mahdollinen kokemus faneilta faneille huomioiden urheiluseurojen tarpeet ja myyntikanavat sekä tarjota samalla seuran päivittäjille helpomman tavan sisällön päivittämiseen.</p>",
+    "image": "sport-get-ready",
+    "imageHeight": 440,
+    "title": "Parempaa helpommalla"
+  },
+  "main": {
+    "cols": 2,
+    "title": "Liitetäänkö sinunkin seurasi huippujoukkoon?",
+    "content": "<p>Elämän ei pidä olla vaikeaa, kallista ja aikaa vievää seuran kotisivuja päivittäessä. Tarjoamme urheilualustan, jonka jokainen sisältötyyppi ja kenttä on suunniteltu tarjoamaan helpompaa ja nopeampaa päivittämistä sekä mahdollisuuden kustomoida ulkoasua seuran tarpeiden mukaan. Ominaisuuksia on automatisoitu niin pitkälle kuin mahdollista, joten päivittäjän ei tarvitse huolehtia peleistä, tilastoista tai seuran videoista. Kaikki tuodaan automaattisesti seuran kotisivulle.</p><p>Kotisivun perusominaisuuksiin kuuluu myös seuran pelaajaesittelyt, verkkokauppa, huutokauppa, mainospaikat sekä aitioiden ja kausipaikkojen myynti.</p><p>Urheilualustamme soveltuu kaikenlaisille urheiluseuroille eikä seuran joukkueiden määrä ole ongelma. Syötteiden avulla sivuston sisältöä voidaan käyttää verkkosivustolla, mahdollisissa mobiilisovelluksissa ja Google Shopping-palvelussa.</p><p>Kehitämme urheilualustaa aktiivisesti tarpeiden mukaan ja uusia ominaisuuksia sekä parannuksia tehdään useasti vuosittain. Urheilualusta tarjotaan SaaS-palveluna, joten lähes kaikki uudet ominaisuudet ovat maksutta kaikkien seurojen käytettävissä. Teidän ei myöskään tarvitse huolehtia lisäosien päivittämisestä tai tietoturvasta, me pidämme huolta sivustostanne.</p><p>Ennen uuden sivuston julkaisua käymme läpi miten sivustoa voi päivittää ja miten kaikki ominaisuudet toimivat. Meille voi aina soittaa koska tahansa tai lähettää viestiä tarpeen vaatiessa. Autamme mieluusti.</p>",
+    "aside": {
+      "title": "Seuran kotisivun ominaisuuksia",
+      "items": [
+        "Hakukone- ja mobiilioptimoitu kotisivu monella kielellä",
+        "Pelien, ottelutuloksien ja tilastojen automaattinen päivitys",
+        "Tulevat pelit ja tilastot etusivulle ja Ottelut-sivulle",
+        "YouTube-videoiden automaattinen päivitys",
+        "Verkkokauppa monilla kategorioilla ja tuotevariaatioilla",
+        "Aitioiden ja kausipaikkojen myynti ja varaus kotipeleille",
+        "Pelaajaesittelyt",
+        "Huutokauppa",
+        "Mainospaikat",
+        "Kustomoitava CSS / tyylit",
+        "Päivälaskuri seuraavaan kotipeliin",
+        "Syötetuki Google Shopping-palveluun",
+        "Päivittäminen helppoa ja nopeaa",
+        "Roolit ylläpitäjille ja joukkueiden päivittäjille",
+        "Rekisteröityneille käyttäjille mahdollisuus äänestyksiin ja arvontoihin",
+        "Google- ja MyClub-kalenterien integrointi",
+        "Someseinä etusivulle ja joukkueiden sivulle integroituna"
+      ]
+    }
+  },
+  "references": {
+    "title": "Sporttisaitit",
+    "content": "Meidän urheilualusta on käytössä alla listatuilla seuroilla ja järjestöillä. Logoa klikkaamalla pääset tutustumaan heidän toimintaan ja meidän urheilualustan toimivuuteen.",
+    "imageFull": false,
+    "items": [
+      {
+        "title": "FC KTP",
+        "link": "https://fcktp.fi/",
+        "image": "sport-logo-fcktp"
+      },
+      {
+        "title": "RoKi Hockey - Mestis",
+        "link": "https://rokihockey.fi/",
+        "image": "sport-logo-rokihockey"
+      },
+      {
+        "title": "Kurra",
+        "link": "https://kurra.fi/",
+        "image": "sport-logo-kurra"
+      },
+      {
+        "title": "Pallokerho Keski-Uusimaa",
+        "link": "https://pkku.fi/",
+        "image": "sport-logo-pkku"
+      },
+      {
+        "title": "Suomen Hockeyliitto / Finnish hockey association",
+        "link": "https://hockeyliitto.com/",
+        "image": "sport-logo-finnish-hockey-association"
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "title": "Websites for your business",
+  "headline": "Agilely and professionally crafted websites",
+  "description": "Not just visually appealing but also a functional sales channel. You dream, we deliver.",
+  "subtitle": "Tailored solution",
+  "slogan": "Websites for businesses and sports clubs",
+  "image": "tuspedesign-websites",
+  "imageHeight": 510,
+  "language": "en",
+  "buttons": [
+    {
+      "icon": "twotone-design-services",
+      "link": "/en/websites#services",
+      "title": "Our Services"
+    },
+    {
+      "icon": "outline-workspace-premium",
+      "link": "/en/websites#references",
+      "title": "Our Work"
+    }
+  ],
+  "waves": {
+    "title": "High-quality websites offer excellent customer service",
+    "content": "<p>We specialize in creating sales-driven, modern, and responsive websites that not only look great but also provide a seamless user experience and high visibility on search engines.</p><p>Our goal is to make your business shine online, whether it's revamping your website or creating a brand new one. We build your site to make it easy for visitors to navigate and quickly find the content they need.</p>",
+    "image": "violet-laptop",
+    "buttonText": "Let's create magic",
+    "imageHeight": 550
+  },
+  "main": {
+    "id": "services",
+    "cols": 3,
+    "title": "An effective 24/7 sales channel",
+    "content": "<p>Do you dream of your website being an active sales machine that generates leads and orders around the clock? It can be a reality. Turning your website into a customer magnet requires not only an appealing design but also unique content, understanding user journeys, and expertise in usability and search engine optimization.</p><p>First impressions matter. When visitors land on your site, they should see professionalism and quality at a glance. Your website should reflect your company's top-notch service. The goal is for visitors to feel they are in the right place.</p><p>We've built hundreds of websites, online stores, and integrations for businesses for over a decade. Our expertise includes ProcessWire and WordPress implementations, as well as various integrations, such as payment and ERP system integrations for online stores.</p><p>We customize websites and online stores to match your company's unique needs and serve your customers best. Our websites are designed to meet the requirements of popular browsers and different devices while also addressing the technical requirements of search engine optimization.</p><p>Content management and maintenance are easy and fast. Our admin area is user-friendly, and we provide training on updating your new site so you can manage your content independently.</p><p>We've also developed a dedicated sports platform for sports clubs, designed for easy administration and visitor-friendly websites (<a href=\"/en/sports\">learn more about sports websites</a>). Our aim is to provide the best possible experience for fans while considering the needs and sales channels of sports clubs, making it easier for club administrators to update content.</p>",
+    "aside": {
+      "title": "Our services",
+      "items": [
+        "Websites for Businesses and Communities",
+        "Online Stores",
+        "Web Applications",
+        "WordPress Plugins",
+        "Easy Maintenance",
+        "REST API Integrations",
+        "SaaS Services",
+        "Integrations",
+        "Accessibility Expertise",
+        "Continuous Development",
+        "UI/UX Design",
+        "Search Engine Optimization",
+        "Same-Day User Support",
+        "Maintenance Services and Update Assistance",
+        "Domain Registration and Management",
+        "Free Situation Analysis"
+      ]
+    },
+    "progression": {
+      "title": "Project progression",
+      "items": [
+        {
+          "title": "Assessment and quote",
+          "content": "We start by assessing your needs and goals to determine a suitable package. Initial assessments can be conducted through remote meetings via Teams, Google Meet, or phone calls."
+        },
+        {
+          "title": "Development and approval",
+          "content": "You'll receive a test site URL, allowing you to track project progress and influence the final outcome. We keep you updated throughout."
+        },
+        {
+          "title": "Finalization and launch",
+          "content": "We won't rest until you're satisfied with the end result. Every pixel will be carefully placed."
+        },
+        {
+          "title": "Maintenance",
+          "content": "<p>After the launch, we transition to the maintenance phase. We ensure your site stays up-to-date by regularly updating plugins and taking daily backups of site content.</p><p>We're happy to assist you with all website-related questions and changes.</p>"
+        }
+      ]
+    }
+  },
+  "references": {
+    "id": "references",
+    "title": "We are proud of these",
+    "content": "We've crafted numerous web solutions for both large and small businesses and associations throughout Finland. Let's create modern websites for your business that you can proudly showcase!",
+    "imageFull": true,
+    "items": [
+      {
+        "title": "FC KTP",
+        "link": "https://fcktp.fi/",
+        "image": "nuxt-fcktp",
+        "alt": ""
+      },
+      {
+        "title": "Foam Party",
+        "link": "https://foamparty.fi/",
+        "image": "processwire-foamparty",
+        "alt": ""
+      },
+      {
+        "title": "Borrowed Cookbook",
+        "link": "https://borrowedcookbook.com/",
+        "image": "svelte-borrowedcookbook",
+        "alt": ""
+      },
+      {
+        "title": "Jalavilla",
+        "link": "https://jalavilla.com/",
+        "image": "processwire-jalavilla",
+        "alt": ""
+      },
+      {
+        "title": "Hyvänolon Kauneuskeskus Ruusunen",
+        "link": "https://ruusunen.info/",
+        "image": "processwire-ruusunen",
+        "alt": ""
+      },
+      {
+        "title": "Ratsukko",
+        "link": "https://ratsukko.com/",
+        "image": "processwire-ratsukko",
+        "alt": ""
+      },
+      {
+        "title": "MyRatsukko",
+        "link": "https://ratsukko.fi/",
+        "image": "svelte-ratsukko",
+        "alt": ""
+      },
+      {
+        "title": "LaKu Stall",
+        "link": "https://lakustall.com/",
+        "image": "processwire-lakustall",
+        "alt": ""
+      },
+      {
+        "title": "Kestopigmentoinnit",
+        "link": "https://www.kestopigmentoinnit.fi/",
+        "image": "processwire-kestopigmentoinnit",
+        "alt": ""
+      }
+    ]
+  },
+  "faq": {
+    "title": "Features of excellent websites",
+    "items": [
+      {
+        "title": "What makes a website excellent?",
+        "content": "An excellent website is one that not only looks appealing but also functions smoothly. It should have a user-friendly design, load quickly, be mobile-responsive, and offer valuable content. Additionally, it should be optimized for search engines and provide a secure browsing experience."
+      },
+      {
+        "title": "Do you offer website maintenance services?",
+        "content": "Yes, we provide website maintenance services to ensure your site remains up-to-date and secure. We offer regular updates, daily backups, and assistance with any website-related questions or changes."
+      },
+      {
+        "title": "Can you create e-commerce websites?",
+        "content": "Absolutely! We specialize in creating online stores that are visually appealing, user-friendly, and optimized for conversions. Whether you're starting a new e-commerce business or need to revamp an existing store, we can help."
+      },
+      {
+        "title": "What is the process of getting a website built by you?",
+        "content": "Our website development process involves four main stages: assessment and quote, development and approval, finalization and launch, and maintenance. We work closely with you at every stage to ensure your website meets your goals and expectations."
+      },
+      {
+        "title": "What sets your web development services apart?",
+        "content": "Our web development services stand out due to our expertise in creating sales-driven websites, our commitment to quality and customer satisfaction, and our extensive experience in web development and design. We also offer continuous support and same-day user support to address any issues promptly."
+      }
+    ]
+  }
+}

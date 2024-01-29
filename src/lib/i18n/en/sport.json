@@ -1,0 +1,76 @@
+{
+  "title": "Versatile website for sports clubs",
+  "headline": "A versatile and easily updated sports site",
+  "description": "Websites are your playing field in the digital arena. Well-built and functional websites are a delight to the eye and a score for your business. Join the ever-growing community.",
+  "subtitle": "Boost your visibility",
+  "slogan": "Websites for businesses and sports clubs",
+  "language": "en",
+  "image": "tuspe-sport",
+  "imageHeight": 628,
+  "waves": {
+    "buttonText": "Let's hit the field together",
+    "content": "<p>In collaboration with football and ice hockey clubs, we have developed a versatile sports site that is easy for administrators to use and enjoyable for site visitors. Our goal is to provide the best possible experience for fans, taking into account the needs and sales channels of sports clubs while also making it easier for club administrators to update content.</p>",
+    "image": "sport-get-ready",
+    "imageHeight": 440,
+    "title": "Let's do it easier"
+  },
+  "main": {
+    "cols": 2,
+    "title": "Is your club ready to join us?",
+    "content": "<p>Life doesn't have to be difficult, expensive, or time-consuming when updating your club's website. We offer a sports platform where every content type and field is designed to provide easier and faster updates, as well as the ability to customize the appearance according to the club's needs. Many features are automated to the extent possible, so administrators don't have to worry about games, statistics, or club videos; everything is automatically imported to the club's website.</p><p>The basic features of the website also include player profiles, an online store with multiple categories and product variations, auction functionality, advertising spaces, and the sale of skyboxes and season tickets for home games.</p><p>Our sports platform is suitable for all types of sports clubs, and the number of club teams is not a problem. Content from the platform can be used on the website, any mobile apps, and Google Shopping through feeds.</p><p>We actively develop the sports platform according to needs, and new features and improvements are made several times a year. The sports platform is offered as a SaaS service, so almost all new features are available to all clubs for free. You also don't have to worry about updating add-ons or security; we take care of your site.</p><p>Before launching a new website, we go through how to update the site and how all the features work. You can always call us or send a message whenever needed. We're here to help.</p>",
+    "aside": {
+      "title": "Features",
+      "items": [
+        "Search engine and mobile-optimized website in multiple languages",
+        "Automatic updates of games, match results, and statistics",
+        "Upcoming games and statistics on the homepage and Matches page",
+        "Automatic updates of YouTube videos",
+        "Online store with multiple categories and product variations",
+        "Sale and reservation of tickets for home games",
+        "Player profiles",
+        "Auction functionality",
+        "Advertising spaces",
+        "Feed support for Google Shopping",
+        "Easy and quick updates",
+        "Custom CSS",
+        "Countdown to the next home game",
+        "Roles for administrators and team updaters",
+        "Registered users can participate in polls and giveaways",
+        "Integration with Google and MyClub calendars",
+        "Social media wall integrated on the homepage and team pages"
+      ]
+    }
+  },
+  "references": {
+    "title": "Sports Sites",
+    "content": "Our sports platform is used by the following clubs and organizations. Click on the logos to explore their activities and the functionality of our sports platform.",
+    "imageFull": false,
+    "items": [
+      {
+        "title": "FC KTP",
+        "link": "https://fcktp.fi/",
+        "image": "sport-logo-fcktp"
+      },
+      {
+        "title": "RoKi Hockey - Mestis",
+        "link": "https://rokihockey.fi/",
+        "image": "sport-logo-rokihockey"
+      },
+      {
+        "title": "Kurra",
+        "link": "https://kurra.fi/",
+        "image": "sport-logo-kurra"
+      },
+      {
+        "title": "Pallokerho Keski-Uusimaa",
+        "link": "https://pkku.fi/",
+        "image": "sport-logo-pkku"
+      },
+      {
+        "title": "Suomen Hockeyliitto / Finnish Hockey Association",
+        "link": "https://hockeyliitto.com/",
+        "image": "sport-logo-finnish-hockey-association"
+      }
+    ]
+  }
+}

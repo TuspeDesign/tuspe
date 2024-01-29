@@ -1,0 +1,21 @@
+{
+  "contact": true,
+  "title": "Yhteystiedot",
+  "headline": "Verkkosivut yritykselle yhdellä puhelinsoitolla",
+  "description": "Älä turhaan stressaa yrityksen kotisivujen uudistuksesta tai päivittämisestä. Mietitään yhdessä miten voisimme parantaa myyntiäsi.",
+  "subtitle": "Parempaa asiakaspalvelua",
+  "slogan": "Kotisivut yrityksille ja urheiluseuroille",
+  "image": "tuspedesign-websites",
+  "imageHeight": 510,
+  "language": "fi",
+  "waves": {
+    "title": "Ota rohkeasti yhteyttä",
+    "content": "<p><strong>Tuspe Design Oy</strong><br>27170 Eurajoki<br>3129423-2</p><p><strong>Myynti</strong><br>Timo Anttila<br>moro@tuspe.com<br>+358 45 311 1786</p>",
+    "form": {
+      "email": "Sähköposti",
+      "message": "Viesti",
+      "name": "Nimi",
+      "submit": "Lähetä"
+    }
+  }
+}

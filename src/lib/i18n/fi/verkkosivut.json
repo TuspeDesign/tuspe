@@ -1,0 +1,172 @@
+{
+  "title": "Verkkosivut yritykselle",
+  "headline": "Kotisivut yritykselle ketterästi ja ammattitaidolla",
+  "description": "Ei vain ulkoisesti kaunis ratkaisu, vaan toimiva myyntikanava. Sinä unelmoit, me toteutamme.",
+  "subtitle": "Räätälöity kokonaisuus",
+  "slogan": "Kotisivut yrityksille ja urheiluseuroille",
+  "image": "tuspedesign-websites",
+  "imageHeight": 510,
+  "language": "fi",
+  "buttons": [
+    {
+      "icon": "twotone-design-services",
+      "link": "/verkkosivut#palvelumme",
+      "title": "Palvelumme"
+    },
+    {
+      "icon": "outline-workspace-premium",
+      "link": "/verkkosivut#referenssit",
+      "title": "Töitämme"
+    }
+  ],
+  "waves": {
+    "title": "Laadukkaat verkkosivut ovat hyvää asiakaspalvelua",
+    "content": "<p>Olemme erikoistuneet luomaan myyviä, moderneja ja responsiivisia verkkosivustoja, jotka eivät ainoastaan näytä upeilta, vaan myös tarjoavat vaivattoman käyttäjäkokemuksen ja korkean näkyvyyden hakukoneissa.</p><p>Tavoitteenamme on saada yrityksenne loistamaan verkossa, olipa sitten kyseessä sivuston uudistaminen tai kokonaan uuden luominen. Rakennamme sivustonne niin, että kävijöiden on helppo navigoida ja löytää tarvitsemansa sisältö nopeasti ja vaivattomasti.</p>",
+    "image": "violet-laptop",
+    "buttonText": "Luodaan fiiliksiä",
+    "imageHeight": 550
+  },
+  "main": {
+    "id": "palvelumme",
+    "cols": 3,
+    "title": "Yrityksen kotisivut ovat tehokas myyntikanava ympäri vuorokauden",
+    "content": "<p>Haaveiletko, että verkkosivusto voisi olla aktiivinen myyntitykki, joka tuo liidejä ja tilauksia kellon ympäri? Se voisi olla todellisuutta. Verkkosivuston valjastaminen asiakasautomaatiksi vaatii hyvän ulkoasun lisäksi uniikkia sisältöä, ostopolkujen ymmärtämistä sekä käytettävyyden ja hakukoneoptimoinnin tuntemusta.</p><p>Ensivaikutelma on ratkaiseva. Kun kävijä astuu sivustollesi, heidän on nähtävä ammattimaisuus ja laatu ensisilmäyksellä. Verkkosivuston pitää heijastaa yrityksesi huippuluokkaista palvelua. Tavoitteena on, että kävijät tuntevat olevansa oikeassa paikassa.</p><p>Olemme rakentaneet satoja verkkosivustoja, verkkokauppoja ja rajapintoja yrityksille yli 10 vuoden ajan. Erikoisosaamisena ProcessWire ja WordPress-toteutukset sekä erilaiset rajapinnat, kuten esimerkiksi verkkokauppojen maksu- ja ERP-järjestelmien väliset integraatiot.</p><p>Verkkosivut ja verkkokaupat toteutetaan aina asiakkaan tarpeiden mukaan, jotta ne sopivat juuri sinun yrityksesi tarpeisiin ja palvelevat parhaiten juuri sinun asiakkaitasi.</p><p>Verkkosivut toteutetaan huomioiden suosituimpien selainten ja eri laitteiden vaatimukset sekä hakukoneoptimoinnin tekniset tarpeet. Verkkosivut skaalaantuvat automaattisesti pöytätietokoneisiin, kannettaviin, tabletteihin ja puhelimiin. Tekninen täydellisyys ei kuitenkaan ole tärkein asia vaan sisältö. Ilman hyvää ja informatiivista uniikkia sisältöä ei verkkosivusto nouse hakutuloksissa vaikka tekninen toteutus on tehty hyvin.</p><p>Sisällön päivittäminen ja muu ylläpito on helppoa ja nopeaa. Ylläpitoalue on käyttäjäystävällinen ja tarjoamme myös koulutuksen uuden sivuston päivittämiseen, jotta voit itse päivittää sivustosi sisältöä.</p><p>Olemme myös kehittäneet urheiluseuroille omaa urheilualustaa, joka on helppokäyttöinen ylläpitäjille ja kotisivulla vierailevalle (<a href=\"/urheilu\">lue lisää kotisivuista urheiluseuralle</a>). Tarkoituksena on tarjota paras mahdollinen kokemus faneilta faneille huomioiden urheiluseurojen tarpeet ja myyntikanavat sekä tarjota samalla seuran päivittäjille helpomman tavan sisällön päivittämiseen.</p>",
+    "aside": {
+      "title": "Palveluitamme",
+      "items": [
+        "Verkkosivut yritykselle ja yhteisölle",
+        "Verkkokaupat",
+        "Web-sovellukset",
+        "WordPress-lisäosat",
+        "Helppo päivitettävyys",
+        "REST API-rajapinnat",
+        "SaaS-palvelut",
+        "Integraatiot",
+        "Saavutettavuusosaaminen",
+        "Jatkokehitys",
+        "UI/UX-suunnittelu",
+        "Hakukoneoptimointi",
+        "Käyttötuki saman päivän aikana",
+        "Ylläpitopalvelut ja päivitysapu",
+        "Verkkotunnuksien varaus ja ylläpito",
+        "Ilmainen tilannekartoitus"
+      ]
+    },
+    "progression": {
+      "title": "Projektin eteneminen",
+      "items": [
+        {
+          "title": "Kartoitus ja tarjous",
+          "content": "Kartoitetaan yhdessä toiveisiisi ja tavoitteisiisi sopiva paketti. Alkukartoitus hoituu helposti etänä Teams / Google Meet-tapaamisessa tai puhelimitse."
+        },
+        {
+          "title": "Kehitys ja hyväksyntä",
+          "content": "Saatte testisivuston osoitteen, jonka avulla voitte seurata projektin etenemistä ja vaikuttaa lopputulokseen. Pidämmme teidät ajan tasalla."
+        },
+        {
+          "title": "Viimeistely ja julkaisu",
+          "content": "Emme lepää ennen kuin olette tyytyväisiä lopputulokseen. Pistetään jokainen pikseli tarkasti omalle paikalleen."
+        },
+        {
+          "title": "Ylläpito",
+          "content": "<p>Julkaisun jälkeen siirrytään ylläpitovaiheeseen. Pidämme huolta sivustota päivittämällä lisäosat säännöllisesti ja otamme varmuuskopion sivuston sisällöstä päivittäin.</p><p>Autamme mielellämme teitä kaikissa nettisivuihin liittyvissä kysymyksissä ja muutoksissa.</p>"
+        }
+      ]
+    }
+  },
+  "references": {
+    "id": "referenssit",
+    "title": "Näistä olemme ylpeitä",
+    "content": "Olemme luoneet lukemattomia verkkosivuratkaisuja sekä suurille yrityksille että pienille yrityksille ja yhdistyksille ympäri Suomea. Tehdään teidänkin yritykselle nykyaikaiset verkkosivut, joita voitte esitellä ylpeydellä!",
+    "imageFull": true,
+    "items": [
+      {
+        "title": "FC KTP",
+        "link": "https://fcktp.fi/",
+        "image": "nuxt-fcktp",
+        "alt": ""
+      },
+      {
+        "title": "Foam Party",
+        "link": "https://foamparty.fi/",
+        "image": "processwire-foamparty",
+        "alt": ""
+      },
+      {
+        "title": "Borrowed Cookbook",
+        "link": "https://borrowedcookbook.com/",
+        "image": "svelte-borrowedcookbook",
+        "alt": ""
+      },
+      {
+        "title": "Jalavilla",
+        "link": "https://jalavilla.com/",
+        "image": "processwire-jalavilla",
+        "alt": ""
+      },
+      {
+        "title": "Hyvänolon Kauneuskeskus Ruusunen",
+        "link": "https://ruusunen.info/",
+        "image": "processwire-ruusunen",
+        "alt": ""
+      },
+      {
+        "title": "Ratsukko",
+        "link": "https://ratsukko.com/",
+        "image": "processwire-ratsukko",
+        "alt": ""
+      },
+      {
+        "title": "MyRatsukko",
+        "link": "https://ratsukko.fi/",
+        "image": "svelte-ratsukko",
+        "alt": ""
+      },
+      {
+        "title": "LaKu Stall",
+        "link": "https://lakustall.com/",
+        "image": "processwire-lakustall",
+        "alt": ""
+      },
+      {
+        "title": "Kestopigmentoinnit",
+        "link": "https://www.kestopigmentoinnit.fi/",
+        "image": "processwire-kestopigmentoinnit",
+        "alt": ""
+      }
+    ]
+  },
+  "faq": {
+    "title": "Hyvien kotisivujen ominaisuuksia",
+    "items": [
+      {
+        "title": "Vakuuttava ulkoasu ja käyttökokemus",
+        "content": "<p>Verkkosivun ulkoasu on ensimmäinen asia, joka kiinnittää kävijän huomion ja luo mielikuvan yrityksestä. Kävijä tekee ulkoasun perusteella päätöksen siitä, jääkö hän tutkimaan sivustoa tarkemmin.</p><p>On äärimmäisen tärkeää, että sivuston ulkoasu heijastaa yrityksen identiteettiä ja arvoja. Laadukas visuaalinen ilme ei ainoastaan lisää yrityksen uskottavuutta, vaan se myös herättää kiinnostusta sen tarjoamiin tuotteisiin ja palveluihin. Kun sivustolla on houkutteleva visuaalinen ilme, erottuu se kilpailijoista ja houkuttelee potentiaalisia asiakkaita yritykseesi. Lisäksi on tärkeää huomioida, että visuaalisen ilmeen tulisi olla esteetön ja saavutettava kaikille käyttäjille, mukaan lukien ne, joilla on erityistarpeita.<p><h3>Sivuston rakenne</h3><p>Verkkosivun rakenteen tulee olla selkeä ja helppokäyttöinen, jotta käyttäjät voivat vaivattomasti navigoida sivulta toiselle ja löytää tarvitsemansa tuotteet ja palvelut. Rakenteen tulisi olla johdonmukainen, ja jokaisen sivun tulisi olla korkeintaan kolmen klikkauksen päässä etusivusta.</p><p>Lisäksi on tärkeää korostaa, että sivuston suunnittelussa tulisi kiinnittää erityistä huomiota saavutettavuuteen. Saavutettavuus tarkoittaa sitä, että kaikki kävijät voivat helposti lukea ja navigoida verkkosivun olevaa sisältöä, riippumatta mahdollisista rajoitteista tai erityistarpeista. Tämä sisältää esimerkiksi selkeän fonttikoon, kontrastien huomioimisen, alt-tekstit kuvissa näkövammaisia käyttäjiä varten sekä navigointimahdollisuudet ilman hiirtä. Saavutettavuuden huomioiminen tekee sivustostasi helpommin käytettävän ja lisää sen kävijäystävällisyyttä.</p><p>Me testaamme luomamme sivustot eri näyttökoilla varmistaaksemme niiden toimivuuden eri laitteissa ja erityisesti saavutettavuuden näkökulmasta. Helppokäyttöisyys ja saavutettavuus ovat meille ensisijaisen tärkeitä jo suunnitteluvaiheessa, jotta voimme tarjota laadukasta kokemusta kaikille sivustollasi vieraileville käyttäjille.</p>"
+      },
+      {
+        "title": "Laadukas sisältö",
+        "content": "<p>Verkkosivujen keskeisin piirre on niiden korkealaatuinen sisältö. Sisältöä luodessa on välttämätöntä ottaa huomioon sekä käyttäjät että hakukoneet. Heikko tai puuttuva sisältö hankaloittaa verkkosivun löytämistä hakukoneiden avulla.</p><p>Tekstin tulisi selkeästi viestiä yrityksen toiminnasta ja tarjoamista palveluista. Sisältöä tulisi helpottaa käyttämällä informatiivisia otsikoita ja selkeitä listoja, jotka tekevät lukemisesta miellyttävämpää ja ymmärrettävämpää. Otsikoissa ja varsinaisessa tekstissä tulisi näkyä verkkosivun keskeiset avainsanat, eli ne sanat ja ilmaukset, joita kävijät todennäköisesti käyttävät etsiessään vastaavia palveluita verkossa. Hakukoneet suosittelevat, että kullakin sivulla olisi noin 500-700 sanaa tekstiä. Mikäli kaipaat ohjeita hakukoneystävällisen sisällön luomiseen, voimme tarjota niitä mielellämme.</p><p>Verkkosivua suunnitellessamme kiinnitämme erityistä huomiota hakukoneystävällisyyteen monilla eri tavoilla. Tämä tarkoittaa muun muassa otsikoiden ja sivujen nimeämisen huomioimista, linkkien oikeaa polkua, kuvien asianmukaista nimittämistä sekä metaotsikoiden ja metakuvauksien käyttöä. Kaikissa näissä tekijöissä avainsanojen käyttäminen on keskeinen osa, kun pyrimme parantamaan sivuston näkyvyyttä hakukoneiden tulossivuilla.</p>"
+      },
+      {
+        "title": "Responsiivisuus ja nopeus",
+        "content": "<p>Verkkosivujen responsiivisuus on keskeinen tekijä, joka mahdollistaa sivustojen mukautumisen automaattisesti kaikenkokoisiin päätelaitteisiin, kuten älypuhelimiin, tableteihin, kannettaviin tietokoneisiin ja suuriin näyttöihin.</p><p>Tarjoamme responsiivisen suunnittelun osana kaikkia verkkosivuprojektejamme ilman lisäkustannuksia. Haluamme varmistaa, että sivustonne näyttää houkuttelevalta ja toimii moitteettomasti riippumatta siitä, millä laitteella käyttäjä sivustoa selaa.</p><p>Tärkeää on myös, että jokaisen sivun latautumisaika pysyy alle kahdessa (2) sekunnissa. Nopeus on avainasemassa, sillä verkkokäyttäjät odottavat sivujen latautuvan nopeasti. Latausnopeutta voidaan parantaa monilla tavoilla, mukaan lukien tehokkaan palvelintilan käyttö, kuvien optimointi sekä laadukkaan koodin varmistaminen.</p>"
+      },
+      {
+        "title": "Hakukoneoptimoitu kokonaisuus",
+        "content": "<p>Verkkosivuista ei ole juurikaan hyötyä, ellei ne näy hakukoneissa. Kilpailu hakutulossijoituksista on erittäin kovaa, ja menestyminen vaatii jatkuvaa sitoutumista ja vaivannäköä. Hakukoneoptimointia voi tehdä hyvällä sisällöllä ja teknisillä ratkaisuilla.</p><p>Laadukas verkkosivusisältö, joka on riittävän pitkä, ainutlaatuinen ja informatiivinen, yhdessä otsikkojen ja tekstien tehokkaan optimoinnin kanssa, auttaa hakukoneita löytämään verkkosivunne paremmin.</p><p>Toteuttamamme verkkosivut ovat teknisesti optimoituja hakukoneille ja ne hyödyntävät automaattisesti sivuston ylläpitäjän lisäämää sisältöä meta-tietojen osalta. Lisäksi tarjoamme ohjeistusta asiakkaillemme hakukoneystävällisen sisällön luomiseen ja teemme yhteistyötä asiakkaiden kanssa otsikoinnin suhteen, jotta varmistetaan, että verkkosivunne erottuu hakutuloksissa ja houkuttelee enemmän kävijöitä.</p>"
+      },
+      {
+        "title": "Sisällön ja lisäosien päivittäminen",
+        "content": "<p>Laadukkaat verkkosivut ovat sellaisia, jotka tarjoavat mahdollisuuden helppoon ja vaivattomaan sisällön muokkaukseen ilman, että sivuston kokonaisuus vaarantuu. Usein verkkosivuilla tulee tarve päivittää tekstejä, lisätä uusia artikkeleita tai vaihtaa kuvia, ja tämän tulisi olla sujuvaa ja ymmärrettävää myös kokemattomille käyttäjille.</p><p>Me luomme kaikki sivupohjat asiakkaan tarpeiden mukaan, jotta jokaisella kentällä on kustomoitu nimi, selkeä kuvaus ja käyttötarkoitus. Tekstiä voi päivittää samalla tavalla kuin mitä tahansa Word-dokumenttia. Editori on hyvin yksinkertainen ja helppo käyttää.</p><p>Tarjoamme myös koulutusta verkkosivuston omatoimiseen sisällönhallintaan. Koulutus voi tapahtua puhelimitse tai verkkotapaamisten välityksellä. Olemme valmiina vastaamaan kaikkiin kysymyksiin ja tarjoamaan lisäohjeita aina tarvittaessa, jotta voitte hyödyntää sivustonne mahdollisimman tehokkaasti ja itsevarmasti.</p>"
+      },
+      {
+        "title": "Kävijäseuranta",
+        "content": "<p>Google Analyticsin kävijäseuranta on arvokas ja maksuton työkalu, joka kerää kattavaa tietoa verkkosivuston käytöstä. Analytics tarjoaa syvällistä ymmärrystä kävijöistä ja heidän toiminnastaan verkkosivustollasi. Seuraavat tiedot ovat vain muutamia niistä, joita Analytics voi tarjota:</p><p><strong>Yleisötiedot</strong>: Analytics paljastaa, mistä kävijät tulevat maantieteellisesti, mitä selainta he käyttävät ja tunnistaa, ovatko he uusia tulokkaita vai sivuston palanneita kävijöitä.</p><p><strong>Sivustolle saapuminen</strong>: Voit nähdä, miten kävijät saapuvat sivustollesi - onko se orgaanisten hakujen tulosta, maksetun mainonnan kautta vai suoraan jonkin tietyn linkin kautta.</p><p><strong>Käyttäytymistiedot</strong>: Analytics antaa sinulle mahdollisuuden tarkastella, mitkä sivut ovat saaneet eniten huomiota ja kuinka kauan kävijät viettävät kullakin sivulla. Tämä auttaa tunnistamaan suosituimmat sisällöt ja mahdolliset ongelmat sivustollasi.</p><p><strong>Konversiot</strong>: Mikäli olet asettanut sivustollesi tavoitteita tai konversioita, Analytics voi auttaa mittaamaan niiden onnistumista. Konversioiksi voi asettaa esimerkiksi yhteydenoton lomakkeen täyttämisen tai tuotteen tilauksen. Näiden tavoitteiden seuraaminen auttaa arvioimaan sivustosi tehokkuutta ja liiketoiminnallista menestystä.</p><p>Kokonaisuudessaan Google Analytics tarjoaa syvällisen näkymän verkkosivustosi suorituskykyyn ja kävijäkäyttäytymiseen, mikä puolestaan auttaa sinua tekemään tietoon perustuvia päätöksiä sivustosi parantamiseksi ja liiketoimintatavoitteidesi saavuttamiseksi.</p>"
+      },
+      {
+        "title": "Nopea ja luotettava ylläpitopalvelu",
+        "content": "<p>Luotettava ylläpitopalvelu on keskeinen osa verkkosivustosi menestystä. Meillä kaikki data säilytetään turvallisesti, ja voimme palauttaa tarvittaessa sivuston nopeasti varmuuskopiosta. Emme veloita pienten muutosten tekemisestä, sillä ne kuuluvat olennaisena osana ylläpitoon. Olemme aina valmiina auttamaan ja tarjoamaan tukea, varmistaen sivustosi jatkuvan toimivuuden ja liiketoiminnan sujuvuuden. Luotettava ylläpitopalvelu antaa sinulle mielenrauhaa ja takaa, että verkkosivustosi toimii optimaalisesti, jotta voit keskittyä ydintehtäviisi.</p><h3>Ylläpitopalveluun sisältyy</h3><ul><li>Palvelimet sijaitsevat Suomessa.</li><li>Rajoittamaton ja nopea liikenne.</li><li>Rajoittamaton levytila kotisivuille.</li><li>Varmuuskopiointi kerran päivässä.</li><li>Pienet päivitykset kotisivuille (alle 15 min).</li><li>SSL-sertifikaatti (https).</li><li>Verkkokauppaan ja urheilualustaan kehitetyt uudet ominaisuudet ja päivitykset.</li><li>Alennetut hinnat uusille projekteille.</li><li>Sisällönhallintaohjelmien ja niiden moduulien päivitykset.</li><li>Palautus varmuuskopiosta.</li><li>Nimipalvelut verkkotunnukselle.</li><li>Vastaukset tukipyyntöihin vuorokaudessa.</li><li>Hyvät säästövinkit tulevaisuudelle.</li></ul>"
+      }
+    ]
+  }
+}
