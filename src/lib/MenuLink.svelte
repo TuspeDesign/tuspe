@@ -1,7 +1,7 @@
 <script lang="ts">
   import Icon from '@iconify/svelte'
-  export let link: { title: string; href: string; icon: string }
-  export let isActive: boolean
+
+  let { link, isActive }: { link: { title: string; href: string; icon: string }; isActive: boolean } = $props()
 </script>
 
 <li class={`flex h-16 ${isActive ? 'flex-col nav-active relative' : 'item-center'}`}>

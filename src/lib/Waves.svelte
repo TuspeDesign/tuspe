@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from '$lib/Button.svelte'
+  import ButtonLink from '$lib/ButtonLink.svelte'
   import HeroImage from '$lib/HeroImage.svelte'
 
   interface Reference {
@@ -13,15 +13,15 @@
     buttonText?: string
     content: string
     id?: string
-    image: string
+    image?: string
     imageFull?: boolean
     imageHeight?: number
     imageWidth?: number
-    items: Reference[]
+    items?: Reference[]
     title: string
   }
 
-  export let data: WaveContent
+  let {data}: {data: WaveContent} = $props()
 </script>
 
 <section>
@@ -67,14 +67,14 @@
         {/if}
       {:else}
         <div class="gap-6 grid lg:grid-cols-2 items-center">
-          <div><HeroImage height={Number(data.imageHeight)} image={data.image} title={data.title} /></div>
+          <div><HeroImage height={Number(data.imageHeight)} image={data.image!} title={data.title} /></div>
           <div>
             <h2 class="mb-6 mt-0 wave">{data.title}</h2>
             <div class="text-xl">{@html data.content}</div>
 
             {#if data.buttonText}
               <div class="mt-6">
-                <Button icon="outline-chat" link="/yhteys" title={data.buttonText} />
+                <ButtonLink icon="outline-chat" link="/yhteys" title={data.buttonText} />
               </div>
             {/if}
           </div>

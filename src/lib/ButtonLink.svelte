@@ -1,8 +1,6 @@
 <script lang="ts">
   import Icon from '@iconify/svelte'
-  export let link: string
-  export let title: string
-  export let icon: string
+  let {icon, link, title} = $props()
 </script>
 
 <a class="border border-gray-300 border-solid inline-block nav-active no-underline py-3 pl-6 pr-8 rounded-full" href={link}>

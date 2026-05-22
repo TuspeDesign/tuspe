@@ -1,14 +1,20 @@
 {
   "arrowParens": "avoid",
+  "bracketLine": false,
   "bracketSpacing": false,
-  "semi": false,
-  "singleAttributePerLine": false,
-  "singleQuote": true,
-  "printWidth": 5000,
-  "quoteProps": "as-needed",
-  "tabWidth": 2,
-  "trailingComma": "none",
-  "useTabs": false,
+  "endOfLine": "auto",
+  "importOrder": [
+    "builtin",
+    "external",
+    "parent",
+    "sibling",
+    "index"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "plugins": [
+    "prettier-plugin-svelte"
+  ],
   "overrides": [
     {
       "files": "*.svelte",
@@ -16,5 +22,16 @@
         "parser": "svelte"
       }
     }
-  ]
+  ],
+  "pluginSearchDirs": [
+    "."
+  ],
+  "printWidth": 1000,
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleAttributePerLine": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false
 }

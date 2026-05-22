@@ -1,13 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@theme {
+  --default-*: initial;
+  --font-*: initial;
+  --container-*: initial;
+  --tracking-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+  --blur-*: initial;
+  --breakpoint-xs: 400px;
+  --breakpoint-sm: 450px;
+  --width-sm: 24rem;
+  --container-sm: 24rem;
+  --breakpoint-md: 760px;
+  --breakpoint-lg: 1000px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1440px;
+}
 
 @layer base {
-	a,
-	button,
-	summary {
-		@apply cursor-pointer;
-	}
+  a,
+  button,
+  summary {
+    @apply cursor-pointer;
+  }
 
   body,
   #tuspe {
@@ -17,12 +32,12 @@
   details summary::-webkit-details-marker,
   details summary::marker {
     display: none;
-    content: "";
+    content: '';
   }
 
   details > summary:after {
     color: var(--color-text);
-    content: "+";
+    content: '+';
     font-size: 1.4rem;
     font-weight: 700;
     position: absolute;
@@ -31,7 +46,7 @@
   }
 
   details[open] > summary:after {
-    content: "-";
+    content: '-';
   }
 
   h1,
@@ -63,7 +78,8 @@
 
   form input,
   form textarea {
-    @apply bg-surface-menu border border-gray-300 border-solid leading-tight p-4 rounded-2xl text-lg w-full;
+    background-color: rgb(var(--color-surface-900));
+    @apply border border-gray-300 border-solid leading-tight p-4 rounded-2xl text-lg w-full;
   }
 
   main a,
@@ -83,6 +99,11 @@
     margin-bottom: 0;
   }
 
+  h3 + p,
+  p + p {
+    @apply mt-4;
+  }
+
   ul {
     list-style-type: circle;
     margin: 0;
@@ -95,30 +116,35 @@
   }
 }
 
+@utility bg-surface-menu {
+  background-color: rgb(var(--color-surface-900));
+}
+
+@utility bg-surface-wave {
+  background-color: rgb(var(--color-secondary-800));
+}
+
+@utility border-surface {
+  border: 1px solid rgba(var(--color-surface-500) / 0.6);
+}
+
+@utility fill-surface-wave {
+  fill: rgb(var(--color-secondary-800));
+}
+
+@utility nav-active {
+  color: var(--color-menu-link-active);
+  background-color: rgb(var(--color-primary));
+}
+
 @layer components {
   header li.nav-active .corner {
     fill: rgb(var(--color-primary));
   }
 
-  .bg-surface-menu {
-    background-color: rgb(var(--color-surface-900));
-  }
-
-  .bg-surface-wave {
-    background-color: rgb(var(--color-secondary-800));
-  }
-
-  .border-surface {
-    border: 1px solid rgba(var(--color-surface-500) / 0.6);
-  }
-
-  .fill-surface-wave {
-    fill: rgb(var(--color-secondary-800));
-  }
-
   .line:after {
     background-color: rgba(var(--color-primary) / 0.6);
-    content: "";
+    content: '';
     display: inline-block;
     height: 100%;
     width: 6px;
@@ -126,17 +152,16 @@
     top: 0;
     left: -15px;
   }
+}
 
-  #topButtons a:hover,
-  #topButtons button:hover,
-  .nav-active {
-    color: var(--color-menu-link-active);
-    background-color: rgb(var(--color-primary));
-  }
+#topButtons a:hover,
+#topButtons button:hover {
+  color: var(--color-menu-link-active);
+  background-color: rgb(var(--color-primary));
 }
 
 * {
-	box-sizing: border-box
+  box-sizing: border-box;
 }
 
 :root {
@@ -146,19 +171,22 @@
 }
 
 html {
-  scrollbar-color: rgba(7 89 133 / 0.5) rgba(0,0,0,.05);
+  scrollbar-color: rgba(7 89 133 / 0.5) rgba(0, 0, 0, 0.05);
 }
 
 body,
 button,
 input,
 textarea {
-  font: 400 18px Inter, system-ui, sans-serif;
+  font:
+    400 18px Inter,
+    system-ui,
+    sans-serif;
 }
 
 #tuspe {
   background-color: rgb(var(--color-surface-900));
-  background-image: radial-gradient(at 50% 0%,rgba(var(--color-secondary-500) / .18) 0px,transparent 75%), radial-gradient(at 100% 0%,rgba(var(--color-tertiary-500) / .18) 0px, transparent 50%);
+  background-image: radial-gradient(at 50% 0%, rgba(var(--color-secondary-500) / 0.18) 0px, transparent 75%), radial-gradient(at 100% 0%, rgba(var(--color-tertiary-500) / 0.18) 0px, transparent 50%);
 }
 
 .dark {

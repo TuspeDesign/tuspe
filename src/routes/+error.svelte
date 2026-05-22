@@ -1,7 +1,3 @@
-<script lang="ts">
-  import { page } from '$app/stores'
-</script>
-
 <div class="flex items-center max-w-screen-md min-h-screen mx-auto pt-10 px-4">
   <div class="py-10">
     <h1 class="mb-6 mt-0 text-center uppercase">Looks Like You're Lost!</h1>

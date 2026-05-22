@@ -1,19 +1,12 @@
 import adapter from '@sveltejs/adapter-cloudflare'
-const vitePreprocess = import('@sveltejs/vite-plugin-svelte').then(m => m.vitePreprocess())
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
+import { sveltePreprocess } from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: {
-    script: async options => (await vitePreprocess).script(options),
-    style: async options => (await vitePreprocess).style(options)
-  },
+  preprocess: [vitePreprocess(), sveltePreprocess()],
   kit: {
-    adapter: adapter({
-      routes: {
-        include: ['/*'],
-        exclude: ['<all>']
-      }
-    })
+    adapter: adapter()
   }
 }
 

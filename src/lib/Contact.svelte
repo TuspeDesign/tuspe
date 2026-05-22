@@ -1,14 +1,13 @@
 <script lang="ts">
-  import Button from '$lib/Button.svelte'
-  import InputField from './InputField.svelte'
+  import {Button, Input, preventDefault} from '@tuspe/components'
+  import ButtonLink from '$lib/ButtonLink.svelte'
 
-  export let data: any
-  export let whatsapp: string
+  let {data, whatsapp}: {data: any; whatsapp: string} = $props()
 
   const defaultBody = {email: '', message: '', name: ''}
-  let body = defaultBody
-  let botCheck = ''
-  let submitted = false
+  let body = $state({...defaultBody})
+  let botCheck = $state('')
+  let submitted = $state(false)
 
   const handleSubmit = () => {
     if (botCheck) {
@@ -25,7 +24,7 @@
     })
       .then(() => {
         submitted = true
-        body = defaultBody
+        body = {...defaultBody}
       })
       .catch(err => {
         console.error(err)
@@ -49,28 +48,22 @@
           {@html data.content}
 
           <div class="mt-8">
-            <Button icon="round-whatsapp" link={whatsapp} title="WhatsApp" />
+            <ButtonLink icon="round-whatsapp" link={whatsapp} title="WhatsApp" />
           </div>
         </div>
 
-        <form on:submit|preventDefault={() => handleSubmit()} class="gap-4 grid md:col-span-2">
+        <form onsubmit={preventDefault(handleSubmit)} class="gap-4 grid md:col-span-2">
           {#if submitted}
             <p class="text-center"><strong>Kiitos yhteydenotosta.</strong><br />Olemme teihin yhteydessä 24 tunnin sisällä.</p>
           {:else if data.form}
-            <InputField bind:value={body.name} label={data.form.name} type="text" maxlength={100} minlength={2} name="name" />
-            <InputField bind:value={body.email} label={data.form.email} type="email" maxlength={100} minlength={6} name="email" />
-
-            <label>
-              <span class="block leading-normal mb-1 ml-4">{data.form.message}<sup class="leading-none text-red-600">*</sup></span>
-              <textarea bind:value={body.message} class="h-32" minlength="10" maxlength="500" required />
-            </label>
+            <Input bind:value={body.name} label={data.form.name} type="text" max={100} min={2} required />
+            <Input bind:value={body.email} label={data.form.email} type="email" max={100} min={6} required />
+            <Input bind:value={body.message} label={data.form.message} type="textarea" max={1000} min={10} inputClass="h-32" required />
 
             <input bind:value={botCheck} class="hidden" type="email" name="emailVariation" />
 
             <div class="text-right">
-              <button class="nav-active border border-gray-300 border-solid inline-block no-underline px-8 py-3 rounded-full uppercase" type="submit">
-                <strong>{data.form.submit}</strong>
-              </button>
+              <Button type="submit"><strong>{data.form.submit}</strong></Button>
             </div>
           {/if}
         </form>

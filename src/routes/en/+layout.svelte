@@ -1,6 +1,8 @@
-<script>
-  import { lang } from '$lib/store'
+<script lang="ts">
+  import {lang} from '$lib/store'
+  import type {Snippet} from 'svelte'
+  let {children}: {children: Snippet} = $props()
   $lang = 'en'
 </script>
 
-<slot />
+{@render children()}

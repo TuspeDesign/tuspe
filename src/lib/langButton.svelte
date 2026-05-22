@@ -1,15 +1,14 @@
 <script lang="ts">
   import { browser } from '$app/environment'
-  import { page } from '$app/stores'
+  import { page } from '$app/state'
   import type { Link, MenuLinks } from '$lib/types'
 
-  export let menu: MenuLinks
-  export let lang: 'fi' | 'en'
-  let langLink: Link | undefined = undefined
-  let newLang: 'fi' | 'en' = 'fi'
+  let { menu, lang }: { menu: MenuLinks; lang: 'fi' | 'en' } = $props()
+  let langLink = $state<Link | undefined>(undefined)
+  let newLang = $state<'fi' | 'en'>('fi')
 
-  $: {
-    const currentLink = menu[lang].find((e) => e.href === $page.url.pathname)
+  $effect(() => {
+    const currentLink = menu[lang].find((e) => e.href === page.url.pathname)
     if (currentLink?.id) {
       newLang = lang === 'fi' ? 'en' : 'fi'
       langLink = menu[newLang].find((e) => e.id === currentLink.id)
@@ -18,14 +17,14 @@
     if (browser) {
       document.documentElement.setAttribute('lang', lang)
     }
-  }
+  })
 </script>
 
 <svelte:head>
   {#if langLink}
     <link rel="alternate" href={langLink.href} hreflang={newLang} type="text/html" />
-    <link rel="alternate" href={$page.url.pathname} hreflang={lang} type="text/html" />
-    <link rel="alternate" href={lang === 'en' ? $page.url.pathname : langLink.href} hreflang="x-default" />
+    <link rel="alternate" href={page.url.pathname} hreflang={lang} type="text/html" />
+    <link rel="alternate" href={lang === 'en' ? page.url.pathname : langLink.href} hreflang="x-default" />
   {/if}
 </svelte:head>
 
