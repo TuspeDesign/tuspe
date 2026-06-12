@@ -55,7 +55,7 @@
   }
 
   h2:not(.wave) {
-    font-size: clamp(1.8rem, 2.4rem, 8vw);
+    font-size: clamp(1.8rem, 2.2rem, 8vw);
   }
 
   h1,
@@ -102,6 +102,11 @@
   h3 + p,
   p + p {
     @apply mt-4;
+  }
+
+  p + h2,
+  ul + h2 {
+    @apply mt-6;
   }
 
   ul {

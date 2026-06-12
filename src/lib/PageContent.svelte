@@ -31,7 +31,6 @@
         })}${'<'}/script>`
       : ''
   )
-
 </script>
 
 <svelte:head>
@@ -47,9 +46,9 @@
 </svelte:head>
 
 {#if data.title}
-  <div class="flex xl:h-[628px] items-center px-6 py-10">
+  <div class="flex xl:h-157 items-center px-6 py-10">
     <div class="gap-6 grid xl:grid-cols-2 items-center max-w-screen-xl mx-auto">
-      <div class="order-none xl:order-last" aria-hidden="true">
+      <div class="order-0 xl:order-last" aria-hidden="true">
         <HeroImage height={data.imageHeight} image={data.image} loading="eager" title={data.title} />
       </div>
 
@@ -104,12 +103,14 @@
 
             {#if data.main.progression}
               <h2>{data.main.progression.title}</h2>
-              {#each data.main.progression.items as item}
-                <div>
-                  <h3>{item.title}</h3>
-                  <p>{@html item.content}</p>
-                </div>
-              {/each}
+              <div class="gap-4 grid mt-4">
+                {#each data.main.progression.items as item}
+                  <div class="content">
+                    <h3>{item.title}</h3>
+                    <p>{@html item.content}</p>
+                  </div>
+                {/each}
+              </div>
             {/if}
           </aside>
         {/if}

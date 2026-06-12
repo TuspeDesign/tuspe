@@ -1,0 +1,9 @@
+/* TEAM */
+Developer: Timo Anttila
+Site: tuspe.com/en
+Contact: moro@tuspe.com
+Location: Finland
+
+/* SITE */
+Standards: HTML5, CSS3
+Software: SvelteKit

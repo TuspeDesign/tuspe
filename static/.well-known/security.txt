@@ -1,0 +1,6 @@
+Contact: mailto:security.wildcard075@passinbox.com
+Expires: 2050-12-31T20:59:00.000Z
+Encryption: https://tuspe.com/.well-known/pgp-key.asc
+Preferred-Languages: fi, en
+Canonical: https://tuspe.com/.well-known/security.txt
+Canonical: https://tuspesports.com/.well-known/security.txt

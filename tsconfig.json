@@ -15,8 +15,13 @@
     "noImplicitThis": true,
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
+    "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "types": [
+      "./worker-configuration.d.ts",
+      "./src/lib/types.ts"
+    ]
   }
 }

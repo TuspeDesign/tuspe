@@ -1,0 +1,27 @@
+{
+  "name": "tuspe",
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "compatibility_date": "2026-05-31",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".svelte-kit/cloudflare",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    {
+      "pattern": "tuspe.com",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "placement": {
+    "mode": "smart"
+  },
+  "send_metrics": false,
+  "workers_dev": false,
+  "preview_urls": false
+}
