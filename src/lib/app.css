@@ -26,7 +26,7 @@
 
   body,
   #tuspe {
-    @apply overflow-x-hidden w-screen;
+    @apply w-screen overflow-x-hidden;
   }
 
   details summary::-webkit-details-marker,
@@ -51,7 +51,7 @@
 
   h1,
   h2.wave {
-    font-size: clamp(2.4rem, 3rem, 8vw);
+    font-size: clamp(2.2rem, 2.6rem, 8vw);
   }
 
   h2:not(.wave) {
@@ -61,7 +61,7 @@
   h1,
   h2:not(.text-black),
   h3 {
-    @apply font-bold leading-tight;
+    @apply leading-tight font-bold;
     color: var(--color-title);
   }
 
@@ -79,7 +79,7 @@
   form input,
   form textarea {
     background-color: rgb(var(--color-surface-900));
-    @apply border border-gray-300 border-solid leading-tight p-4 rounded-2xl text-lg w-full;
+    @apply w-full rounded-2xl border border-solid border-gray-300 p-4 text-lg leading-tight;
   }
 
   main a,
@@ -127,6 +127,7 @@
 
 @utility bg-surface-wave {
   background-color: rgb(var(--color-secondary-800));
+  margin-top: -1px;
 }
 
 @utility border-surface {
@@ -171,7 +172,8 @@
 
 :root {
   --black: #000;
-  --light: ;
+  --rounded-input: 0.375rem;
+  --text-label-size: 0.95rem;
   --white: #fff;
 }
 
@@ -206,6 +208,8 @@ textarea {
   --color-tertiary-500: 99 102 241;
   --color-surface-500: 107 114 128;
   --color-surface-900: 17 24 39;
+  --color-border: rgb(var(--color-primary));
+  --color-input: var(--color-text);
 }
 
 .light {
@@ -220,6 +224,8 @@ textarea {
   --color-tertiary-500: 99 102 241;
   --color-surface-500: 107 114 128;
   --color-surface-900: 255 255 255;
+  --color-border: rgb(var(--color-primary));
+  --color-input: var(--color-text);
 }
 
 footer svg:not(:hover) {
@@ -228,6 +234,10 @@ footer svg:not(:hover) {
 
 footer svg:hover {
   fill: var(--color-menu-link);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
 }
 
 @media screen and (min-width: 620px) {

@@ -1,17 +1,17 @@
 <script lang="ts">
-  import { browser } from '$app/environment'
-  import { page } from '$app/state'
-  import type { Link, MenuLinks } from '$lib/types'
+  import {browser} from '$app/environment'
+  import {page} from '$app/state'
+  import type {Link, MenuLinks} from '$lib/types'
 
-  let { menu, lang }: { menu: MenuLinks; lang: 'fi' | 'en' } = $props()
+  let {menu, lang}: {menu: MenuLinks; lang: 'fi' | 'en'} = $props()
   let langLink = $state<Link | undefined>(undefined)
   let newLang = $state<'fi' | 'en'>('fi')
 
   $effect(() => {
-    const currentLink = menu[lang].find((e) => e.href === page.url.pathname)
+    const currentLink = menu[lang].find(e => e.href === page.url.pathname)
     if (currentLink?.id) {
       newLang = lang === 'fi' ? 'en' : 'fi'
-      langLink = menu[newLang].find((e) => e.id === currentLink.id)
+      langLink = menu[newLang].find(e => e.id === currentLink.id)
     }
 
     if (browser) {

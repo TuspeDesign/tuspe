@@ -35,13 +35,13 @@
 <a class="hidden" href="#menu">Jump to the navigation</a>
 
 <div id="tuspe" class={colorState}>
-  <header id="head" class="min-h-[95px] py-4 relative text-center w-full">
+  <header id="head" class="min-h-24] py-4 relative text-center w-full">
     <a class="absolute inline-block left-6 no-underline text-center top-5 uppercase z-50" href="/" rel="home" aria-label="Tuspe Design Logo">
       <span class="block font-bold text-[1.5rem]">Tuspe</span>
       <span class="block font-normal text-[1.3rem]">Design</span>
     </a>
 
-    <button onclick={() => (menuOpen = !menuOpen)} class={`absolute border-surface ${menuOpen ? 'nav-active' : 'bg-surface-menu'} flex h-14 items-center lg:hidden right-[9.5rem] top-5 rounded-full xs:px-6 xs:w-auto w-14 z-50`} aria-label="Open and close the main navigation / menu" aria-expanded={menuOpen} aria-controls="menu" aria-haspopup="true">
+    <button onclick={() => (menuOpen = !menuOpen)} class={`absolute border-surface ${menuOpen ? 'nav-active' : 'bg-surface-menu'} flex h-14 items-center lg:hidden right-38 top-5 rounded-full xs:px-6 xs:w-auto w-14 z-50`} aria-label="Open and close the main navigation / menu" aria-expanded={menuOpen} aria-controls="menu" aria-haspopup="true">
       <Icon icon="ic:round-menu" class={`${menuOpen ? 'hidden' : 'inline-block'} mx-auto text-3xl xs:mr-2`} />
       <Icon icon="ic:round-close" class={`${!menuOpen ? 'hidden' : 'inline-block'} mx-auto text-3xl xs:mr-2`} />
       <span class="hidden xs:inline-block text-lg uppercase"><strong>Menu</strong></span>

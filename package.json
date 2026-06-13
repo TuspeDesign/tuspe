@@ -19,7 +19,7 @@
     "@sveltejs/kit": "^2.65.0",
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
     "@tailwindcss/vite": "^4.3.1",
-    "@tuspe/components": "^1.9.10",
+    "@tuspe/components": "^1.9.12",
     "@types/eslint": "^9.6.1",
     "@types/js-cookie": "^3.0.6",
     "eslint-config-prettier": "^10.1.8",

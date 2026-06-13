@@ -13,6 +13,7 @@
     "content": "<p><strong>Tuspe Design Ltd</strong><br>27170 Eurajoki<br>3129423-2</p><p><strong>Sales</strong><br>Timo Anttila<br>moro@tuspe.com<br>+358 45 311 1786</p>",
     "form": {
       "email": "Email",
+      "error": "Something went wrong, please try again shortly.",
       "message": "Message",
       "name": "Name",
       "submit": "Send"
